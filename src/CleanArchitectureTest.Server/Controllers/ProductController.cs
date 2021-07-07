@@ -15,7 +15,6 @@ namespace CleanArchitectureTest.Server.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IMediator _mediator;
-
         public ProductController(IMediator mediator)
         {
             _mediator = mediator;
